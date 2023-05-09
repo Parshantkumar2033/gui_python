@@ -13,7 +13,7 @@ def button_clear():
 
 def button_equal():
     toCal = e.get()
-    e.delete(0, END)
+    e.delete(0, END) 
     l = len(toCal)
     for i in range(l):
         if toCal[-1] in ['+', '-', '*', '/']:
